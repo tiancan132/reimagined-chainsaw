@@ -1,0 +1,25 @@
+# ---- 构建产物 ----
+build/
+.gradle/
+*.apk
+*.aab
+*.dex
+*.class
+
+# ---- 本地配置（含个人 SDK 路径）----
+local.properties
+
+# ---- IDE ----
+.idea/
+*.iml
+.vscode/
+.DS_Store
+
+# ---- 日志 ----
+*.log
+hs_err_pid*
+replay_pid*
+
+# ---- 抓包/临时 ----
+*.tmp
+captures/
